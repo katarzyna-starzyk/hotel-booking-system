@@ -69,7 +69,6 @@
                             <tbody>
                                 <tr><td><a href="admin_manage_hotels.php" class="btn btn-warning btn-sm">Usuwaj hotele</a></td></tr>
                                 <tr><td><a href="admin_add_hotels.php" class="btn btn-warning btn-sm">Dodawaj hotele</a></td></tr>
-                                <tr><td><a href="admin_manage_reservations.php" class="btn btn-warning btn-sm">Usuwaj rezerwacje</a></td></tr>
                             </tbody>
                         </table>
                     </div>
