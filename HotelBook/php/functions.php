@@ -341,7 +341,7 @@
 
     }
     
-    function cancelReservation($reservationId)
+    function cancelReservation($userId, $reservationId)
     {
         $conn = connectToDatabase();
         $uid = (int)$userId;
@@ -364,7 +364,7 @@
         } 
     }
 
-    function addRatingAndReview($reservationId, $rating, $review)
+    function addRatingAndReview($userId, $reservationId, $rating, $review)
     {
         $conn = connectToDatabase();
         $uid = (int)$userId;
