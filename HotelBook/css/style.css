@@ -1,0 +1,84 @@
+.divider:after,
+.divider:before
+{
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+@media (max-width: 450px)
+{
+    .h-custom
+    {
+        height: 100%;
+    }
+}
+
+label
+{
+    text-align: left;
+}
+
+a,
+a:active,
+a:visited,
+a:hover
+{
+    text-decoration: none;
+    color: white;
+}
+
+h2
+{
+    padding: 20px 0;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+div.hotele, div.pokoje
+{
+    background-color: #eeeeee10;
+}
+
+div.hotele:hover, div.pokoje:hover
+{
+    background-color: #eeeeee20;
+}
+
+div.naglowek
+{
+    background-color: #dddddd10;
+    height: 50px;
+}
+
+main .container-fluid
+{
+    padding: 0;
+    min-height: 80vh;
+}
+
+input.date
+{
+    visibility: hidden;
+    height: 0;
+}
+
+div.flatpickr-calendar
+{
+    min-width: 50%;
+    margin: 0 auto;
+}
+
+div.flatpickr-calendar div
+{
+    margin: 0 auto;
+}
+
+.carousel-caption
+{
+    background-color: #ffffff66;
+    max-width: 100%;
+    width:100%;
+    left: 0;
+}
